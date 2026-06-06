@@ -1,0 +1,92 @@
+<!-- wp:html -->
+<div style="font-family: Arial;max-width: 1100px;margin: auto">
+
+<h1 style="text-align:center;color:#1a73e8">
+CloudSSO Applications Portal
+</h1>
+
+<p style="text-align:center;color:gray">
+Single Sign-On Enabled Application Access
+</p>
+
+<hr>
+
+<!-- SSO STATUS -->
+<div style="background:#e8f0fe;padding:15px;border-radius:10px;text-align:center">
+<h2>🔐 Authentication Status</h2>
+<p><b>Status:</b> You are already authenticated via Microsoft Entra ID</p>
+<p><b>Protocol:</b> OAuth 2.0 / OpenID Connect</p>
+</div>
+
+<hr>
+
+<!-- APPLICATION CARDS -->
+<h2>📦 Available Applications</h2>
+
+<div style="display:flex;flex-wrap:wrap;gap:20px;justify-content:center">
+
+<!-- HR PORTAL -->
+<div style="flex:1;min-width:250px;border:1px solid #ddd;padding:20px;border-radius:10px">
+  <h3>👨‍💼 HR Portal</h3>
+  <p>Employee leave, onboarding, HR records</p>
+
+  <a href="#" style="display:inline-block;padding:10px 15px;background:#1a73e8;color:white;text-decoration:none;border-radius:5px">
+     Access
+  </a>
+</div>
+
+<!-- PAYROLL -->
+<div style="flex:1;min-width:250px;border:1px solid #ddd;padding:20px;border-radius:10px">
+  <h3>💰 Payroll System</h3>
+  <p>Salary, payslips, tax information</p>
+
+  <a href="#" style="display:inline-block;padding:10px 15px;background:#34a853;color:white;text-decoration:none;border-radius:5px">
+     Access
+  </a>
+</div>
+
+<!-- ANALYTICS -->
+<div style="flex:1;min-width:250px;border:1px solid #ddd;padding:20px;border-radius:10px">
+  <h3>📊 Analytics Dashboard</h3>
+  <p>Reports, statistics, system monitoring</p>
+
+  <a href="#" style="display:inline-block;padding:10px 15px;background:#fbbc05;color:black;text-decoration:none;border-radius:5px">
+     Access
+  </a>
+</div>
+
+<!-- EMPLOYEE RECORDS -->
+<div style="flex:1;min-width:250px;border:1px solid #ddd;padding:20px;border-radius:10px">
+  <h3>👥 Employee Records</h3>
+  <p>Departments, roles, employee database</p>
+
+  <a href="#" style="display:inline-block;padding:10px 15px;background:#ea4335;color:white;text-decoration:none;border-radius:5px">
+     Access
+  </a>
+</div>
+
+</div>
+
+<hr>
+
+<!-- SSO EXPLANATION -->
+<h2>🔗 How SSO Works (Demo Explanation)</h2>
+
+<ul>
+  <li>User logs in once using Microsoft Entra ID</li>
+  <li>Authentication token is stored (simulated)</li>
+  <li>All applications trust the same identity session</li>
+  <li>No repeated login required</li>
+</ul>
+
+<hr>
+
+<!-- FOOTER FLOW -->
+<h3>System Flow</h3>
+
+<div style="background:#f5f5f5;padding:15px;border-radius:8px">
+Login → Entra ID Authentication → WordPress Session → Applications Access → Logout
+</div>
+
+</div>
+<!-- /wp:html -->
