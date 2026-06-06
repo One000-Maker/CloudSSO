@@ -1,0 +1,107 @@
+<!-- wp:paragraph -->
+<p>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div style="font-family: Arial;max-width: 1100px;margin: auto">
+
+<!-- HEADER -->
+<div style="text-align:center;padding:30px;background:#1a73e8;color:white;border-radius:10px">
+  <h1>CloudSSO Enterprise Portal</h1>
+  <p>Development and Deployment of a Cloud-Based Single Sign-On Application</p>
+</div>
+
+<hr>
+
+<!-- LOGIN SECTION -->
+<div style="text-align:center;margin:30px 0">
+
+  <h2>🔐 Secure Access Portal</h2>
+  <p>Sign in using Microsoft Entra ID authentication</p>
+
+  <a href="https://login.microsoftonline.com/" style="display:inline-block;padding:12px 20px;background:#0f6cbd;color:white;text-decoration:none;border-radius:5px">
+     Login with Microsoft
+  </a>
+
+  <p style="margin-top:10px;font-size:14px;color:gray">
+    OAuth 2.0 • OpenID Connect • MFA Supported
+  </p>
+
+</div>
+
+<hr>
+
+<!-- PROJECT INFO -->
+<h2>📌 Project Overview</h2>
+
+<p>
+CloudSSO is a simulated enterprise-grade Single Sign-On system built using
+Microsoft Entra ID authentication concepts and WordPress UI modules.
+It demonstrates centralized authentication, employee management, and reporting.
+</p>
+
+<ul>
+  <li>✔ Microsoft Entra ID Authentication</li>
+  <li>✔ Role-Based Access Control (RBAC)</li>
+  <li>✔ Employee Management System</li>
+  <li>✔ Reporting &amp; Analytics Module</li>
+  <li>✔ Cloud Integration (AWS / SQL Server concept)</li>
+</ul>
+
+<hr>
+
+<!-- TECHNOLOGY STACK -->
+<h2>🧠 Technology Stack</h2>
+
+<table border="1" width="100%" cellpadding="10" style="border-collapse:collapse;text-align:center">
+
+<tr style="background:#1a73e8;color:white">
+<th>Component</th>
+<th>Technology</th>
+</tr>
+
+<tr>
+<td>Authentication</td>
+<td>Microsoft Entra ID</td>
+</tr>
+
+<tr>
+<td>Frontend</td>
+<td>WordPress (UI Layer)</td>
+</tr>
+
+<tr>
+<td>Database</td>
+<td>MySQL (WordPress default)</td>
+</tr>
+
+<tr>
+<td>Cloud Concept</td>
+<td>AWS Simulation</td>
+</tr>
+
+</table>
+
+<hr>
+
+<!-- TEAM -->
+<h2>👨‍💻 Project Team</h2>
+
+<ul>
+  <li>Sachin Kumar</li>
+  <li>Ritik Malik</li>
+  <li>Jai Nainwal</li>
+  <li>Muhammad Shan Hassan</li>
+</ul>
+
+<hr>
+
+<!-- NAVIGATION HELP -->
+<h2>🚀 System Flow</h2>
+
+<div style="background:#f5f5f5;padding:15px;border-radius:8px">
+Home → Dashboard → Employees → Applications → Reports → Settings → Logout
+</div>
+
+</div>
+<!-- /wp:html -->
