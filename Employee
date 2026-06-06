@@ -1,0 +1,96 @@
+<!-- wp:html -->
+<div style="font-family: Arial;max-width: 1000px;margin: auto">
+
+<h1 style="text-align:center;color:#1a73e8">
+CloudSSO - Employee Management System
+</h1>
+
+<hr>
+
+<!-- ADD EMPLOYEE FORM -->
+<h2>➕ Add Employee</h2>
+
+
+
+  Full Name<br>
+  <br>
+
+  Email<br>
+  <br>
+
+  Department<br>
+  <br>
+
+  Role<br>
+  <br><br>
+
+  <button type="button" style="background:#1a73e8;color:white;padding:10px 20px;border:none;border-radius:5px">
+    Save Employee
+  </button>
+
+
+
+<hr>
+
+<!-- EMPLOYEE TABLE -->
+<h2>👥 Employee List</h2>
+
+<table border="1" width="100%" cellpadding="10" style="border-collapse:collapse;text-align:center">
+
+  <tbody><tr style="background:#1a73e8;color:white">
+    <th>ID</th>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Department</th>
+    <th>Role</th>
+  </tr>
+
+  <tr>
+    <td>1</td>
+    <td>Sachin Kumar</td>
+    <td>sachin@sso.local</td>
+    <td>IT</td>
+    <td>Administrator</td>
+  </tr>
+
+  <tr>
+    <td>2</td>
+    <td>Ritik Malik</td>
+    <td>ritik@sso.local</td>
+    <td>IT</td>
+    <td>Security Engineer</td>
+  </tr>
+
+  <tr>
+    <td>3</td>
+    <td>Jai Nainwal</td>
+    <td>jai@sso.local</td>
+    <td>Infrastructure</td>
+    <td>AD Administrator</td>
+  </tr>
+
+  <tr>
+    <td>4</td>
+    <td>Muhammad Shan Hassan</td>
+    <td>hassan@sso.local</td>
+    <td>Database</td>
+    <td>DBA</td>
+  </tr>
+
+</tbody></table>
+
+<hr>
+
+<!-- STATUS PANEL -->
+<h2>📊 System Status</h2>
+
+<ul>
+  <li><b>Microsoft Entra ID:</b> Connected</li>
+  <li><b>Active Directory:</b> Synced</li>
+  <li><b>Database:</b> SQL Server (Simulated)</li>
+  <li><b>Authentication:</b> OAuth 2.0 / OpenID Connect</li>
+</ul>
+
+</div>
+
+<!-- /wp:html -->
