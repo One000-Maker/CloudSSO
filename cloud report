@@ -1,0 +1,135 @@
+<!-- wp:html -->
+<div style="font-family: Arial;max-width: 1100px;margin: auto">
+
+<h1 style="text-align:center;color:#1a73e8">
+CloudSSO Reports Center
+</h1>
+
+<p style="text-align:center;color:gray">
+System Analytics &amp; Security Reports (Static Demo Data)
+</p>
+
+<hr>
+
+<!-- LOGIN REPORT -->
+<h2>🔐 Login Activity Report</h2>
+
+<table border="1" width="100%" cellpadding="10" style="border-collapse:collapse;text-align:center">
+
+<tr style="background:#1a73e8;color:white">
+<th>User</th>
+<th>Login Time</th>
+<th>Status</th>
+<th>IP Address</th>
+</tr>
+
+<tr>
+<td>Sachin Kumar</td>
+<td>09:00 AM</td>
+<td style="color:green">Success</td>
+<td>192.168.1.10</td>
+</tr>
+
+<tr>
+<td>Ritik Malik</td>
+<td>09:05 AM</td>
+<td style="color:green">Success</td>
+<td>192.168.1.11</td>
+</tr>
+
+<tr>
+<td>Jai Nainwal</td>
+<td>09:10 AM</td>
+<td style="color:green">Success</td>
+<td>192.168.1.12</td>
+</tr>
+
+<tr>
+<td>Muhammad Shan Hassan</td>
+<td>09:15 AM</td>
+<td style="color:green">Success</td>
+<td>192.168.1.13</td>
+</tr>
+
+</table>
+
+<hr>
+
+<!-- SECURITY REPORT -->
+<h2>🛡 Security Report</h2>
+
+<div style="display:flex;flex-wrap:wrap;gap:20px">
+
+<div style="flex:1;min-width:200px;background:#e8f5e9;padding:15px;border-radius:10px">
+<h3>✔ Successful Logins</h3>
+<h2>120</h2>
+</div>
+
+<div style="flex:1;min-width:200px;background:#ffebee;padding:15px;border-radius:10px">
+<h3>❌ Failed Logins</h3>
+<h2>3</h2>
+</div>
+
+<div style="flex:1;min-width:200px;background:#fff3e0;padding:15px;border-radius:10px">
+<h3>🔑 Password Resets</h3>
+<h2>2</h2>
+</div>
+
+<div style="flex:1;min-width:200px;background:#ede7f6;padding:15px;border-radius:10px">
+<h3>🚫 Account Lockouts</h3>
+<h2>1</h2>
+</div>
+
+</div>
+
+<hr>
+
+<!-- EMPLOYEE SUMMARY -->
+<h2>👥 Employee Summary Report</h2>
+
+<table border="1" width="100%" cellpadding="10" style="border-collapse:collapse;text-align:center">
+
+<tr style="background:#1a73e8;color:white">
+<th>Total Employees</th>
+<th>Departments</th>
+<th>Roles</th>
+<th>Active Systems</th>
+</tr>
+
+<tr>
+<td>4</td>
+<td>IT, Infrastructure, Database</td>
+<td>Admin, Engineer, DBA</td>
+<td>CloudSSO Platform</td>
+</tr>
+
+</table>
+
+<hr>
+
+<!-- SYSTEM ACTIVITY -->
+<h2>📡 System Activity Log</h2>
+
+<ul>
+  <li>✔ Microsoft Entra ID authentication successful</li>
+  <li>✔ Active Directory sync completed</li>
+  <li>✔ Employee module accessed</li>
+  <li>✔ Applications module accessed via SSO</li>
+  <li>✔ Reports generated successfully</li>
+</ul>
+
+<hr>
+
+<!-- EXPORT BUTTONS -->
+<h2>📤 Export Reports</h2>
+
+<button style="padding:10px 15px;background:#1a73e8;color:white;border:none;border-radius:5px">
+Export PDF
+</button>
+
+<button style="padding:10px 15px;background:#34a853;color:white;border:none;border-radius:5px;margin-left:10px">
+Export Excel
+</button>
+
+</div>
+<!-- /wp:html -->
