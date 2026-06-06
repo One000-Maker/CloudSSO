@@ -1,0 +1,114 @@
+<!-- wp:html -->
+<div style="font-family: Arial;max-width: 1100px;margin: auto">
+
+<h1 style="text-align:center;color:#1a73e8">
+CloudSSO Settings Panel
+</h1>
+
+<p style="text-align:center;color:gray">
+System Configuration &amp; Security Management (Demo Mode)
+</p>
+
+<hr>
+
+<!-- AUTH CONFIG -->
+<h2>🔐 Microsoft Entra ID Configuration</h2>
+
+<div style="background:#f5f7fb;padding:20px;border-radius:10px">
+
+Tenant ID<br>
+<br><br>
+
+Client/Application ID<br>
+<br><br>
+
+Redirect URI<br>
+<br><br>
+
+<button style="padding:10px 15px;background:#1a73e8;color:white;border:none;border-radius:5px">
+Save Configuration
+</button>
+
+</div>
+
+<hr>
+
+<!-- SECURITY SETTINGS -->
+<h2>🛡 Security Configuration</h2>
+
+<ul>
+  <li>✔ OAuth 2.0 Enabled</li>
+  <li>✔ OpenID Connect Enabled</li>
+  <li>✔ Role-Based Access Control (RBAC)</li>
+</ul>
+
+<div style="background:#fff3e0;padding:15px;border-radius:10px">
+Session Timeout (minutes)<br>
+<br><br>
+
+<button style="padding:10px 15px;background:#34a853;color:white;border:none;border-radius:5px">
+Update Security Settings
+</button>
+</div>
+
+<hr>
+
+<!-- CLOUD CONFIG -->
+<h2>☁ Cloud Configuration (AWS Simulation)</h2>
+
+<table border="1" width="100%" cellpadding="10" style="border-collapse:collapse;text-align:center">
+
+<tr style="background:#1a73e8;color:white">
+<th>Service</th>
+<th>Status</th>
+<th>Type</th>
+</tr>
+
+<tr>
+<td>EC2 Instance</td>
+<td style="color:green">Running</td>
+<td>Windows Server 2022</td>
+</tr>
+
+<tr>
+<td>Database Server</td>
+<td style="color:orange">Simulated</td>
+<td>SQL Server Concept</td>
+</tr>
+
+<tr>
+<td>Load Balancer</td>
+<td style="color:green">Active</td>
+<td>Application Traffic</td>
+</tr>
+
+</table>
+
+<hr>
+
+<!-- SYSTEM CONTROL -->
+<h2>⚙ System Controls</h2>
+
+<button style="padding:10px 15px;background:#ea4335;color:white;border:none;border-radius:5px">
+Restart System
+</button>
+
+<button style="padding:10px 15px;background:#fbbc05;color:black;border:none;border-radius:5px;margin-left:10px">
+Clear Cache
+</button>
+
+<button style="padding:10px 15px;background:#1a73e8;color:white;border:none;border-radius:5px;margin-left:10px">
+Export Logs
+</button>
+
+<hr>
+
+<!-- SYSTEM FLOW -->
+<h2>🔄 System Architecture Flow</h2>
+
+<div style="background:#f5f5f5;padding:15px;border-radius:8px">
+Microsoft Entra ID → Authentication → WordPress UI → Employee Module → Applications → Reports → Settings → Logout
+</div>
+
+</div>
+<!-- /wp:html -->
